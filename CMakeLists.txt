@@ -4,6 +4,7 @@
 
 # CMake version
 cmake_minimum_required(VERSION 3.9 FATAL_ERROR)
+cmake_policy(SET CMP0120 OLD)
 
 # Compile to Wasm
 option(BABYLON_WASM "Target emscriptem / wasm" OFF)
